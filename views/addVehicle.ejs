@@ -1,0 +1,26 @@
+<%- include("header")-%>
+   <div class="container-fluid"> 
+        <form action="/addVehicle" method="POST">
+            <br>Upload Car Image<input type="file" name="fileToUpload" id="fileToUpload" required><br>
+            Select the Company
+            <select name="selectCompany" id="" aria-placeholder="Select company" required>
+                <option value="Select Company">--Select Company--</option>
+                <option value="BMW">BMW</option>
+                <option value="HONDA">HONDA</option>
+                <option value="TOYOTA">TOYOTA</option>
+                <option value="VOLKSWAGEN">VOLKSWAGEN</option>
+                <option value="MARUTI SUZUKI">MARUTI SUZUKI</option>
+                <option value="AUDI">AUDI</option>
+                <option value="MERCEDES BENZ">MERCEDES BENZ</option>
+            </select><br>
+            Enter Car Model
+            <input type="text" name="selectModel" id="" placeholder="Enter your car Model" required><br>
+            Enter Year Of Purchase
+            <input type="number" name="Year" id="" placeholder="Enter year of Purchase" required>
+
+            <button type="submit">SUBMIT</button>
+
+        </form>
+    </div>
+
+<%- include("footer")-%>
