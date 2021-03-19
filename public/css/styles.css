@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+form input, form select {
+  padding: .5rem 1rem;
+  margin: .5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+form label {
+  margin-bottom: 1rem;
+}
+
+form button {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 50px;
+  padding: .5rem 1rem;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body .landing {
+  background: url("../imgs/BKG-1366.jpg");
+  height: 92vh;
+}
+
+body .container-fluid {
+  padding: 0 7rem;
+}
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body nav {
+  background: #4E7DAB;
+  font-size: 1rem;
+  color: black;
+  min-height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 13px;
+}
+
+body nav ul li {
+  padding-left: 2rem;
+}
+
+body .heading {
+  padding-top: 8rem;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #3d3d3d;
+  font-size: 40px;
+  max-width: 35%;
+  font-weight: 400;
+}
+
+body p {
+  font-family: 'lato';
+  color: #3b3b3b;
+  font-size: 15px;
+  max-width: 32%;
+  line-height: 1.5;
+  margin-top: 3.5rem;
+}
+
+body div {
+  text-align: center;
+}
+
+body div button {
+  margin: 0 auto;
+  margin-top: 6rem;
+  display: block;
+  border-radius: 50px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  background: #00d9ff;
+  padding: 1rem 2.5rem;
+  border: solid #ffffff 3px;
+  text-decoration: none;
+}
+
+body div button:hover {
+  background-color: rgba(40, 47, 61, 0.438);
+  border: solid #ffffff 3px;
+}
+
+body .about-text {
+  text-align: left;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+body div .Arrow {
+  height: 1.5rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: 1.7rem;
+}
+
+body .box {
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem 5rem;
+  background-color: #7393b4;
+  max-width: 25%;
+  border-radius: 20px;
+  -webkit-box-shadow: 8px 12px #00000027;
+          box-shadow: 8px 12px #00000027;
+  margin-bottom: 1rem;
+}
+
+body .box h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 2.5rem;
+}
+/*# sourceMappingURL=styles.css.map */

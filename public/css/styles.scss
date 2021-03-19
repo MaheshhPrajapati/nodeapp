@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form{
+    input, select{
+        padding: .5rem 1rem;
+        margin: .5rem;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    label{
+        margin-bottom: 1rem;
+    }
+    button{
+        font-size: 20px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 5rem;
+        border-radius: 50px;
+        padding: .5rem 1rem;
+    }
+}
+
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    // Landing Page
+    .landing{    
+        background: url("../imgs/BKG-1366.jpg");
+        height: 92vh;
+    }
+
+    .container-fluid{
+        padding: 0 7rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    nav{
+        background: #4E7DAB;
+        font-size: 1rem;
+        color: black;
+        min-height: 8vh;
+        @include center();
+        ul{
+            display: flex;
+            list-style: none;
+            font-size: 13px;
+            li{
+                padding-left: 2rem;
+            }
+        }
+    }
+    .heading{
+        padding-top: 8rem;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        color: rgb(61, 61, 61);
+        font-size: 40px;
+        max-width: 35%;
+        font-weight: 400;
+    }
+    p{
+        font-family: 'lato';
+        color: rgb(59, 59, 59);
+        font-size: 15px;
+        max-width: 32%;
+        line-height: 1.5;
+        margin-top: 3.5rem;
+    }
+    div{
+        text-align: center;
+        button{
+            margin: 0 auto;
+            margin-top: 6rem;
+            display: block;
+            border-radius: 50px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 17px;
+            background: rgb(0, 217, 255);
+            padding: 1rem 2.5rem;
+            border: solid #ffffff 3px;
+            text-decoration: none;
+            
+            &:hover{
+                background-color: rgba(40, 47, 61, 0.438);
+                border: solid #ffffff 3px;
+    
+            }
+        }
+        
+    }
+    .about-text{
+        text-align: left;
+        max-width: 100%;
+        margin-top: 1rem;
+        
+    }
+    div{        
+        .Arrow{
+            height: 1.5rem;
+            margin: 0 auto;
+            display: block;
+            margin-top: 1.7rem;
+        }
+    }
+    .box{
+        margin: 0 auto;
+        margin-top: 3rem;
+        padding: 2rem 5rem;
+        background-color: #7393b4;
+        max-width: 25%;
+        border-radius: 20px;
+        box-shadow: 8px 12px #00000027;
+        margin-bottom: 1rem;
+        h1{
+            text-align: center;
+            font-weight: 400;
+            font-size: 25px;
+            margin-bottom: 2.5rem;
+        }
+        
+    }
+
+        
+}
